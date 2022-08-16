@@ -1,13 +1,16 @@
+/* sets margins and padding for entire page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* selects backgroung color for body of page */
 body {
     background-color: #d9dcd6;
 }
 
+/* selects font, padding, and color for entire header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* selects font size for h1 inside of header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* selects different color for "seo" in header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* selects font, font size, padding, margins, are where the navigation portion of header is located */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* removes bullet points from list */
 .header nav ul {
     list-style-type: none;
 }
 
+/* displays list as inline blocks 25 pixels from left margin */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* selects color of the navigation links in header */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* selects font size of all paragraphs */
 p {
     font-size: 16px;
 }
 
+/* indicated the size and location of digital marketing meeting image */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +69,14 @@ p {
     background-position: center;
 }
 
+/* indicates width, display, and margin of three main boxes under digital marketing image */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* indicates that the image will float on a certain side, a certain number of pixels from the margin */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,12 +87,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* sets margins, padding, font, and background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,6 +99,7 @@ p {
     background-color: #2589bd;
 }
 
+/* sets margins and text color */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,6 +115,7 @@ p {
     color: #ffffff;
 }
 
+/* sets margins and aligns h3 text */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,6 +131,7 @@ p {
     text-align: center;
 }
 
+/* sets how images on right side of page are displayed, also sets their margina and width */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,6 +150,7 @@ p {
     max-width: 150px;
 }
 
+/* sets box bottom margin, padding, height, backgrouns color and selects the text's font and color.*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/* sets the max height for the images */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,6 +191,7 @@ p {
     max-height: 200px;
 }
 
+/* sets bottom margin and font size for h2 headers */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,6 +207,7 @@ p {
     font-size: 36px;
 }
 
+/* sets padding, font, and text alignment for footer */
 footer {
     padding: 30px;
     clear: both;
@@ -194,6 +215,7 @@ footer {
     text-align: center;
 }
 
+/* sets font size for h2 heading in footer */
 footer h2 {
     font-size: 20px;
 }
